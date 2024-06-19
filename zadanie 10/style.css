@@ -1,0 +1,52 @@
+        section {
+            width: 600px;
+            height: 400px;
+            position: relative;
+        }
+
+        .element {
+            position: absolute;
+        }
+        .element1 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        .element2 {
+            top: 90px;
+            left: 430px;
+            z-index: 2;
+        }
+        
+        .element3 {
+            top: 30px;
+            left: 180px;
+            z-index: 2;
+        }
+        .element4 {
+            top: 90px;
+            left: 60px;
+            z-index: 2;
+        }
+        .element5 {
+            top: 135px;
+            left: 180px;
+            z-index: 3;
+        }
+        .element6 {
+            top: 180px;
+            left: 160px;
+            z-index: 2;
+        }
+        .element7 {
+            top: 329px;
+            left: 495px;
+            z-index: 2;
+        }
+        .element8 {
+            top: 300px;
+            left: 170px;
+            z-index: 4;
+        }

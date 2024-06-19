@@ -1,0 +1,46 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .registration-form {
+            width: 320px; 
+            padding: 15px; 
+            background-color: #fff; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .input-field {
+            width: calc(100% - 30px); 
+            margin-bottom: 15px;
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 3px;
+            box-sizing: border-box; 
+        }
+
+        .submit-btn {
+            width: calc(100% - 30px); 
+            padding: 10px; 
+            background-color: #1cbc11; 
+            border: none;
+            border-radius: 3px; 
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit-btn:hover {
+            background-color: #14a20a;
+        }
